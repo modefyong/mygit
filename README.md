@@ -1,2 +1,2 @@
-#mygit
-JavaScript DOM 第十二章项目综合示例
+
+JavaScript DOM编程艺术第十二章项目综合示例

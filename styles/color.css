@@ -1,0 +1,59 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    color: #fb5;
+    background-color: #334;
+}
+header{
+    color: #ec8;
+    background-color: #334;
+    border-color: #667;
+}
+header nav{
+    background-color: #789;
+    color: rgb(205, 205, 233);
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: #445;
+    background-color: #ed6;
+}
+article{
+    color: #223;
+    background-color: #edc;
+}
+header nav a.here:link,
+header nav a.here:visited,
+header nav a.here:hover,
+header nav a.here:active{
+    color: #eef;
+    background-color: #799;
+}
+
+/* table */
+th{
+    color: #edc;
+    background-color:#455;
+}
+tr td{
+    color:#223;
+    background-color:#eb6;
+}
+tr.odd td{
+    color: #223;
+    background-color: #ec8;
+}
+tr.highlight td{
+    color:#223;
+    background-color: #cba;
+}
+input::-webkit-input-placeholder{
+    /* input.placeholder 没有显示！ */
+    color: grey;
+    
+}

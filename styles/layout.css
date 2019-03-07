@@ -1,0 +1,115 @@
+/* 大部分内边距信息 */
+section, header, article, nav{
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 1em 20%;
+    background: url(../images/background.gif) repeat-x;
+    background-attachment: fixed;
+    background-position: top left;
+    /* 设置段落的最大宽度 */
+    max-width: 80em;
+}
+header{
+    background: url(../images/guitarist.gif) no-repeat top right;
+    border: 1px solid rgb(151, 101, 101);
+}
+header nav{
+    background:url(../images/navbar.gif) repeat-x bottom left;
+    /* border: 1px solid rgb(129, 81, 81); */
+    padding-left: 80px;
+}
+header ul{
+    list-style: none;
+    width: 100%;
+    border-left: 2px solid rgb(180, 177, 177);
+}
+header ul::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+header li{
+    display: inline;
+}
+header li a{
+    display:block;
+    float:left;
+    padding: 10px 30px;
+    border-right: 2px solid rgb(180, 177, 177);
+}
+article{
+    padding: 30px 60px;
+    line-height: 1.8em;
+}
+article h1{
+    margin-bottom: 10px;
+}
+article a{
+    color: rgb(126, 116, 116);
+}
+
+#about header{
+    background-image:url(../images/lineup.gif);
+}
+#photos header{
+    background-image:url(../images/basshead.gif);
+}
+#live header{
+    background-image:url(../images/bassist1.gif);
+}
+#contact header{
+    background-image:url(../images/drummer.gif);
+}
+
+#slideshow{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+#preview{
+    position:absolute;
+}
+#frame{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+/* 缩略图片 */
+#imagegallery li{
+    display: inline;
+}
+
+/* table */
+td{
+    padding:.5em 3em;
+}
+dl{
+    overflow: hidden;
+}
+dt{
+    float: left;
+}
+dd{
+    float: left;
+}
+dt{
+    margin-right: 1em;
+}
+dd{
+    margin-right: 3em;
+}
+/* 联系表单 */
+label{
+    display: block;
+}
+fieldset{
+    border: 0;
+}
